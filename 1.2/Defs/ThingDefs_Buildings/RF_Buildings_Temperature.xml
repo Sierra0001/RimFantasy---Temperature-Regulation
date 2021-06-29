@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Parentname="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>RF_FrostPylon</defName>
     <label>frost pylon</label>
     <description>A beautifully crafted magic crystal that drains energy from its surroundings. Lowers nearby temperature and may explode on damage.</description>
     <category>Building</category>
+    <!--<thingClass>Building_Cooler</thingClass>-->
     <graphicData>
       <texPath>Things/Building/Temperature/RF_FrostPylon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -75,11 +76,12 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef Parentname="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>RF_FlamePylon</defName>
     <label>flame pylon</label>
     <description>A beautifully crafted magic crystal that radiates energy into its surroundings. Increases nearby temperature and may explode on damage.</description>
     <category>Building</category>
+    <!--<thingClass>Building_Heater</thingClass>-->
     <graphicData>
       <texPath>Things/Building/Temperature/RF_FlamePylon</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <DamageDef Name="Flame">
+  <DamageDef Name="RF_IcyMagicalEnergyBurn">
     <defName>RF_IcyMagicalEnergyBurn</defName>
     <workerClass>DamageWorker_Flame</workerClass>
     <label>magical energy burn</label>
@@ -10,7 +10,7 @@
     <canInterruptJobs>false</canInterruptJobs>
     <externalViolence>true</externalViolence>
     <deathMessage>{0} has been burned to death by magical energy.</deathMessage>
-    <hediff>Magical Energy Burn</hediff>
+    <hediff>Burn</hediff>
     <armorCategory>Heat</armorCategory>
     <minDamageToFragment>15</minDamageToFragment>
     <defaultDamage>10</defaultDamage>
@@ -24,7 +24,7 @@
     <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
   </DamageDef>
 
-  <DamageDef Name="Flame">
+  <DamageDef Name="RF_FieryMagicalEnergyBurn">
     <defName>RF_FieryMagicalEnergyBurn</defName>
     <workerClass>DamageWorker_Flame</workerClass>
     <label>magical energy burn</label>
@@ -33,7 +33,7 @@
     <canInterruptJobs>false</canInterruptJobs>
     <externalViolence>true</externalViolence>
     <deathMessage>{0} has been burned to death by magical energy.</deathMessage>
-    <hediff>Magical Energy Burn</hediff>
+    <hediff>Burn</hediff>
     <armorCategory>Heat</armorCategory>
     <minDamageToFragment>15</minDamageToFragment>
     <defaultDamage>10</defaultDamage>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <DamageDef Name="RF_IcyMagicalEnergyBurn">
+  <DamageDef ParentName="Flame">
     <defName>RF_IcyMagicalEnergyBurn</defName>
     <workerClass>DamageWorker_Flame</workerClass>
     <label>magical energy burn</label>
@@ -19,12 +19,12 @@
     <explosionCellMote>RF_Mote_BlastIcyMagicalEnergy</explosionCellMote>
     <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
     <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
-    <soundExplosion>Explosion_Flame</soundExplosion>
+    <soundExplosion>Explosion_EMP</soundExplosion>
     <combatLogRules>Damage_Flame</combatLogRules>
     <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
   </DamageDef>
 
-  <DamageDef Name="RF_FieryMagicalEnergyBurn">
+  <DamageDef ParentName="Flame">
     <defName>RF_FieryMagicalEnergyBurn</defName>
     <workerClass>DamageWorker_Flame</workerClass>
     <label>magical energy burn</label>
@@ -42,7 +42,7 @@
     <explosionCellMote>RF_Mote_BlastFieryMagicalEnergy</explosionCellMote>
     <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
     <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
-    <soundExplosion>Explosion_Flame</soundExplosion>
+    <soundExplosion>Explosion_EMP</soundExplosion>
     <combatLogRules>Damage_Flame</combatLogRules>
     <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
   </DamageDef>

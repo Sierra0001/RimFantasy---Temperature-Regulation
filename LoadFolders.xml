@@ -2,6 +2,6 @@
 <loadFolders>
   <v1.2>
     <li>1.2</li>
-    <li IfModActive="LongerCFloor.ProxyHeat">Patches_ProxyHeat</li>
+    <!--<li IfModActive="LongerCFloor.ProxyHeat">Patches_ProxyHeat</li>-->
   </v1.2>
 </loadFolders>

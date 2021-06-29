@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Parentname="BuildingBase">
+    <defName>RF_FrostPylon</defName>
+    <label>frost pylon</label>
+    <description>A beautifully crafted magic crystal that drains energy from its surroundings. Lowers nearby temperature and may explode on damage.</description>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Temperature/RF_FrostPylon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <shadowData>
+        <volume>(0.9,0.3,0.9)</volume> <!--This requires testing. -->
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability> <!--Either PassThroughOnly or Impossable. -->
+    <!-- <pathCost>30</pathCost> -->
+    <!--<constructEffect>ConstructMetal</constructEffect> Not applicable to stuffable items.-->
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.4</fillPercent>
+    <statBases>
+      <MaxHitPoints>360</MaxHitPoints>
+      <Beauty>10</Beauty>
+      <WorkToBuild>240</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <Gold>15</Gold>
+      <Jade>25</Jade>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <!--Are placeWorkers needed?-->
+    <comps>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>-30</heatPerSecond>
+        <heatPushMinTemperature>-24</heatPushMinTemperature>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(85,125,250,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>60</wickTicks>
+        <explosiveRadius>4</explosiveRadius>
+        <explosiveDamageType>RF_IcyMagicalEnergyBurn</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+        <postExplosionSpawnThingDef>RF_BlueCrystalShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingCount>5</postExplosionSpawnThingCount>
+      </li>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <!--<designationHotKey>Misc4</designationHotKey>-->
+    <researchPrerequisites>
+      <li>PassiveCooler</li> <!--Insert custom research when available-->
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef Parentname="BuildingBase">
+    <defName>RF_FlamePylon</defName>
+    <label>flame pylon</label>
+    <description>A beautifully crafted magic crystal that radiates energy into its surroundings. Increases nearby temperature and may explode on damage.</description>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Temperature/RF_FlamePylon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <shadowData>
+        <volume>(0.9,0.3,0.9)</volume> <!--This requires testing. -->
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability> <!--Either PassThroughOnly or Impossable. -->
+    <!-- <pathCost>30</pathCost> -->
+    <!--<constructEffect>ConstructMetal</constructEffect> Not applicable to stuffable items.-->
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.4</fillPercent>
+    <statBases>
+      <MaxHitPoints>360</MaxHitPoints>
+      <Beauty>10</Beauty>
+      <WorkToBuild>240</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <Gold>15</Gold>
+      <Jade>25</Jade>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <!--Are placeWorkers needed?-->
+    <comps>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>30</heatPerSecond>
+        <heatPushMinTemperature>24</heatPushMinTemperature>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(250,125,85,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>60</wickTicks>
+        <explosiveRadius>4</explosiveRadius>
+        <explosiveDamageType>RF_FieryMagicalEnergyBurn</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+        <postExplosionSpawnThingDef>RF_RedCrystalShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingCount>5</postExplosionSpawnThingCount>
+      </li>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <!--<designationHotKey>Misc4</designationHotKey>-->
+    <researchPrerequisites>
+      <li>PassiveCooler</li> <!--Insert custom research when available-->
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

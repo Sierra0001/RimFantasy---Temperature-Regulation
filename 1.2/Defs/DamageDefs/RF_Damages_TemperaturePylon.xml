@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef Name="Flame">
+    <defName>RF_IcyMagicalEnergyBurn</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>magical energy burn</label>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been burned to death by magical energy.</deathMessage>
+    <hediff>Magical Energy Burn</hediff>
+    <armorCategory>Heat</armorCategory>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>10</defaultDamage>
+    <defaultArmorPenetration>0</defaultArmorPenetration>
+    <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
+    <explosionCellMote>RF_Mote_BlastIcyMagicalEnergy</explosionCellMote>
+    <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+    <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+    <soundExplosion>Explosion_Flame</soundExplosion>
+    <combatLogRules>Damage_Flame</combatLogRules>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+  </DamageDef>
+
+  <DamageDef Name="Flame">
+    <defName>RF_FieryMagicalEnergyBurn</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>magical energy burn</label>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been burned to death by magical energy.</deathMessage>
+    <hediff>Magical Energy Burn</hediff>
+    <armorCategory>Heat</armorCategory>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>10</defaultDamage>
+    <defaultArmorPenetration>0</defaultArmorPenetration>
+    <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
+    <explosionCellMote>RF_Mote_BlastFieryMagicalEnergy</explosionCellMote>
+    <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+    <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+    <soundExplosion>Explosion_Flame</soundExplosion>
+    <combatLogRules>Damage_Flame</combatLogRules>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+  </DamageDef>
+
+</Defs>

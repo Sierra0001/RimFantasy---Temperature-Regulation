@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <li Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "RF_FrostPylon"]/comps</xpath> <!--Frost Pylon-->
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "RF_FrostPylon"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </li>
+  <li Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "RF_FrostPylon"]/comps</xpath>
+    <value>
+      <li Class="ProxyHeat.CompProperties_TemperatureSource">
+        <radius>5</radius>
+        <tempOutcome>-10</tempOutcome>
+        <minTemperature>-12</minTemperature>
+      </li>
+    </value>
+  </li>
+
+  <li Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "RF_FlamePylon"]/comps</xpath> <!--Flame Pylon-->
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "RF_FlamePylon"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </li>
+  <li Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "RF_FlamePylon"]/comps</xpath>
+    <value>
+      <li Class="ProxyHeat.CompProperties_TemperatureSource">
+        <radius>5</radius>
+        <tempOutcome>10</tempOutcome>
+        <minTemperature>12</minTemperature>
+      </li>
+    </value>
+  </li>
+
+
+
+
+
+
+
+
+</Patch>

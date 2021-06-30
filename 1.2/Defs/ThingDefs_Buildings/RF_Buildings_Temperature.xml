@@ -8,7 +8,7 @@
     <category>Building</category>
     <!--<thingClass>Building_Cooler</thingClass>-->
     <graphicData>
-      <texPath>Things/Building/Temperature/RFFrostPylon</texPath>
+      <texPath>Things/Building/Temperature/RF_FrostPylon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
       <allowFlip>false</allowFlip>
@@ -50,6 +50,9 @@
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <!--Are placeWorkers needed?-->
+    <placeWorkers>
+      <li>PlaceWorker_CoolerSimple</li>
+    </placeWorkers>
     <comps>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
@@ -83,7 +86,7 @@
     <category>Building</category>
     <!--<thingClass>Building_Heater</thingClass>-->
     <graphicData>
-      <texPath>Things/Building/Temperature/RFFlamePylon</texPath>
+      <texPath>Things/Building/Temperature/RF_FlamePylon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
       <allowFlip>false</allowFlip>
@@ -125,6 +128,9 @@
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <!--Are placeWorkers needed?-->
+    <placeWorkers>
+      <li>PlaceWorker_CoolerSimple</li>
+    </placeWorkers>
     <comps>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>

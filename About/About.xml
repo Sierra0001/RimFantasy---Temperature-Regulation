@@ -10,9 +10,6 @@
 	<modDependencies>
 	<li>
 		<packageId>Sierra.RFGS</packageId>
-		<displayName>RimFantasy - Gemstones</displayName>
-		<downloadUrl></downloadUrl>
-		<steamWorkshopUrl></steamWorkshopUrl>
 	</li>
 </modDependencies>
 	<loadAfter>
@@ -25,7 +22,10 @@
 [b]Rimworld 1.2[/b]
 
 
+This mod adds 2 new magical gem pylons that radiate temperature changing aura.
 
+Moderately powerful but costly, they are capable of supporting anywhere from a small storage room on their own, to a large facility when multiple are installed.
+Be careful though, the energies within the crystals are barely contained and excessive damage will produce a rather spectacular explosion.
 
 [b]Recommended Mods:[/b]
 [list]
@@ -37,7 +37,9 @@
 
 [b]Mod Compatibility:[/b]
 [list]
-[*]None Known.
+[*]No Specific Issues Known.
+[*]Built-in support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2365526329]Proxy Heat[/url]
+[*]Probably won't play well with other gem mod without a patch.
 [/list]
 
 

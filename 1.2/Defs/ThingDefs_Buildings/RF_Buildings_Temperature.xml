@@ -34,14 +34,10 @@
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>100</costStuffCount>
     <costList>
+      <RF_UncutSapphire>50</RF_UncutSapphire>
       <Gold>15</Gold>
-      <Jade>25</Jade>
+      <Silver>25</Silver>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -61,7 +57,7 @@
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>5</glowRadius>
-        <glowColor>(85,125,250,0)</glowColor>
+        <glowColor>(53,80,181,0)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>60</wickTicks>
@@ -113,14 +109,10 @@
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>100</costStuffCount>
     <costList>
+      <RF_UncutRuby>50</RF_UncutRuby>
       <Gold>15</Gold>
-      <Jade>25</Jade>
+      <Silver>25</Silver>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -130,7 +122,7 @@
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <!--Are placeWorkers needed?-->
     <placeWorkers>
-      <li>PlaceWorker_CoolerSimple</li>
+      <li>PlaceWorker_Heater</li>
     </placeWorkers>
     <comps>
       <li Class="CompProperties_HeatPusher">
@@ -140,7 +132,7 @@
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>5</glowRadius>
-        <glowColor>(250,125,85,0)</glowColor>
+        <glowColor>(189,25,60,0)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>60</wickTicks>

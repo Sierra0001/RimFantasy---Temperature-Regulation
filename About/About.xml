@@ -10,6 +10,7 @@
 	<modDependencies>
 	<li>
 		<packageId>Sierra.RFGS</packageId>
+	 	<displayName>RimFantasy - Gemstones</displayName>
 	</li>
 </modDependencies>
 	<loadAfter>

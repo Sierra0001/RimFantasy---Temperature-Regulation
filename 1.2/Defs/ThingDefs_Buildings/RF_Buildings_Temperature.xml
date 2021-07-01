@@ -42,7 +42,7 @@
     </stuffCategories>
     <costStuffCount>35</costStuffCount>
     <costList>
-      <RF_UncutSapphire>45</RF_UncutSapphire>
+      <RF_RoughSapphire>45</RF_RoughSapphire>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -77,7 +77,7 @@
     <designationCategory>Temperature</designationCategory>
     <!--<designationHotKey>Misc4</designationHotKey>-->
     <researchPrerequisites>
-      <li>PassiveCooler</li> <!--Insert custom research when available-->
+      <li>RF_MagicalTemperatureRegulation</li> <!--Insert custom research when available-->
     </researchPrerequisites>
   </ThingDef>
 
@@ -122,7 +122,7 @@
     </stuffCategories>
     <costStuffCount>35</costStuffCount>
     <costList>
-      <RF_UncutRuby>45</RF_UncutRuby>
+      <RF_RoughRuby>45</RF_RoughRuby>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -157,7 +157,7 @@
     <designationCategory>Temperature</designationCategory>
     <!--<designationHotKey>Misc4</designationHotKey>-->
     <researchPrerequisites>
-      <li>PassiveCooler</li> <!--Insert custom research when available-->
+      <li>RF_MagicalTemperatureRegulation</li> <!--Insert custom research when available-->
     </researchPrerequisites>
   </ThingDef>
 

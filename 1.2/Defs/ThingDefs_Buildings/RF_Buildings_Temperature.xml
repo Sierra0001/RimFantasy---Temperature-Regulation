@@ -56,20 +56,21 @@
     <comps>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>-30</heatPerSecond>
-        <heatPushMinTemperature>-24</heatPushMinTemperature>
+        <heatPerSecond>-25</heatPerSecond>
+        <heatPushMinTemperature>-28</heatPushMinTemperature>
       </li>
       <li Class="CompProperties_Glower">
-        <glowRadius>3</glowRadius>
+        <glowRadius>4</glowRadius>
         <glowColor>(85,125,250,0)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>60</wickTicks>
-        <explosiveRadius>4</explosiveRadius>
+        <explosiveRadius>5</explosiveRadius>
         <explosiveDamageType>RF_IcyMagicalEnergyBurn</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+        <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
         <postExplosionSpawnThingDef>RF_BlueCrystalShards</postExplosionSpawnThingDef>
-        <postExplosionSpawnThingCount>5</postExplosionSpawnThingCount>
+        <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
       </li>
     </comps>
     <designationCategory>Temperature</designationCategory>
@@ -134,20 +135,21 @@
     <comps>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>30</heatPerSecond>
-        <heatPushMinTemperature>24</heatPushMinTemperature>
+        <heatPerSecond>25</heatPerSecond>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_Glower">
-        <glowRadius>3</glowRadius>
+        <glowRadius>4</glowRadius>
         <glowColor>(250,125,85,0)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>60</wickTicks>
-        <explosiveRadius>4</explosiveRadius>
+        <explosiveRadius>5</explosiveRadius>
         <explosiveDamageType>RF_FieryMagicalEnergyBurn</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+        <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
         <postExplosionSpawnThingDef>RF_RedCrystalShards</postExplosionSpawnThingDef>
-        <postExplosionSpawnThingCount>5</postExplosionSpawnThingCount>
+        <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
       </li>
     </comps>
     <designationCategory>Temperature</designationCategory>

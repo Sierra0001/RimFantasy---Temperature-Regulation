@@ -13,9 +13,6 @@
       <!--<color>(225,45,10,0)</color>-->
     </graphicData>
     <filth>
-      <placementMask>
-        <li>Terrain</li>
-      </placementMask>
       <disappearsInDays>45~50</disappearsInDays>
       <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
       <cleaningSound>Interact_CleanFilth_Dirt</cleaningSound>
@@ -34,9 +31,6 @@
       <!--<color>(10,75,225,0)</color>-->
     </graphicData>
     <filth>
-      <placementMask>
-        <li>Terrain</li>
-      </placementMask>
       <disappearsInDays>45~50</disappearsInDays>
       <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
       <cleaningSound>Interact_CleanFilth_Dirt</cleaningSound>

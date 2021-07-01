@@ -60,7 +60,7 @@
         <heatPushMinTemperature>-28</heatPushMinTemperature>
       </li>
       <li Class="CompProperties_Glower">
-        <glowRadius>4</glowRadius>
+        <glowRadius>5</glowRadius>
         <glowColor>(85,125,250,0)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">
@@ -139,7 +139,7 @@
         <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_Glower">
-        <glowRadius>4</glowRadius>
+        <glowRadius>5</glowRadius>
         <glowColor>(250,125,85,0)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">

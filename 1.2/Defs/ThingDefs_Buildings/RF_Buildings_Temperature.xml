@@ -8,10 +8,11 @@
     <category>Building</category>
     <!--<thingClass>Building_Cooler</thingClass>-->
     <graphicData>
-      <texPath>Things/Building/Temperature/RF_FrostPylon</texPath>
+      <texPath>Things/Building/Temperature/RF_FrostPylon/RF_FrostPylon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
-      <allowFlip>false</allowFlip>
+      <allowFlip>true</allowFlip>
       <shadowData>
         <volume>(0.9,0.3,0.9)</volume> <!--This requires testing. -->
       </shadowData>
@@ -19,7 +20,7 @@
         <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->
       </damageData>
     </graphicData>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability> <!--Either PassThroughOnly or Impossable. -->
     <!-- <pathCost>30</pathCost> -->
@@ -34,17 +35,21 @@
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
     <costList>
-      <RF_UncutSapphire>50</RF_UncutSapphire>
-      <Gold>15</Gold>
-      <Silver>25</Silver>
+      <RF_UncutSapphire>45</RF_UncutSapphire>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <resourcesFractionWhenDeconstructed>0.15</resourcesFractionWhenDeconstructed>
     <!--Are placeWorkers needed?-->
     <placeWorkers>
       <li>PlaceWorker_CoolerSimple</li>
@@ -83,10 +88,11 @@
     <category>Building</category>
     <!--<thingClass>Building_Heater</thingClass>-->
     <graphicData>
-      <texPath>Things/Building/Temperature/RF_FlamePylon</texPath>
+      <texPath>Things/Building/Temperature/RF_FlamePylon/RF_FlamePylon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
-      <allowFlip>false</allowFlip>
+      <allowFlip>true</allowFlip>
       <shadowData>
         <volume>(0.9,0.3,0.9)</volume> <!--This requires testing. -->
       </shadowData>
@@ -94,7 +100,7 @@
         <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->
       </damageData>
     </graphicData>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability> <!--Either PassThroughOnly or Impossable. -->
     <!-- <pathCost>30</pathCost> -->
@@ -109,17 +115,21 @@
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
     <costList>
-      <RF_UncutRuby>50</RF_UncutRuby>
-      <Gold>15</Gold>
-      <Silver>25</Silver>
+      <RF_UncutRuby>45</RF_UncutRuby>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <resourcesFractionWhenDeconstructed>0.15</resourcesFractionWhenDeconstructed>
     <!--Are placeWorkers needed?-->
     <placeWorkers>
       <li>PlaceWorker_Heater</li>

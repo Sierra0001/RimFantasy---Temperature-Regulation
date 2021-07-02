@@ -24,7 +24,7 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Credits
 
-SirLalaPyon for his amazing, high quality vanilla styled art.
+SirLalaPyon for his amazing, high-quality vanilla styled art.
 
 ### Recent Changes
 

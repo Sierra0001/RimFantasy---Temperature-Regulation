@@ -4,13 +4,13 @@ This mod adds 2 new magical gem pylons that radiate temperature changing aura.
 
 Moderately powerful but costly, they are capable of supporting anywhere from a small storage room on their own, to a large facility when multiple are installed. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a rather spectacular explosion.
 
-### Balance
-
-This mod is perfectly balanced, as all things should be.
-
 ### Features
 
-- Every pawn will spawn with a talent along with a set of stats that improves their survivability in a medieval world.
+- 2 Pylons (Cold/Hot)
+
+### Balance
+
+Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Compatibility
 

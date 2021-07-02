@@ -22,8 +22,8 @@
     </graphicData>
     <rotatable>true</rotatable>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability> <!--Either PassThroughOnly or Impossable. -->
-    <!-- <pathCost>30</pathCost> -->
+    <passability>PassThroughOnly</passability> <!--Either PassThroughOnly or Impossable. -->
+    <pathCost>30</pathCost>
     <!--<constructEffect>ConstructMetal</constructEffect> Not applicable to stuffable items.-->
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
@@ -102,8 +102,8 @@
     </graphicData>
     <rotatable>true</rotatable>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability> <!--Either PassThroughOnly or Impossable. -->
-    <!-- <pathCost>30</pathCost> -->
+    <passability>PassThroughOnly</passability> <!--Either PassThroughOnly or Impossable. -->
+    <pathCost>30</pathCost>
     <!--<constructEffect>ConstructMetal</constructEffect> Not applicable to stuffable items.-->
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>

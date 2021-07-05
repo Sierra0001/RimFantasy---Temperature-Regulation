@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>RF_BlueCrystalShards</defName>
+    <label>blue crystal shards</label>
+    <statBases>
+      <Beauty>-3</Beauty>
+      <Cleanliness>-5</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/RF_BlueCrystalShards</texPath>
+      <!--<color>(225,45,10,0)</color>-->
+    </graphicData>
+    <filth>
+      <disappearsInDays>45~50</disappearsInDays>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+      <cleaningSound>Interact_CleanFilth_Dirt</cleaningSound>
+    </filth>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>RF_RedCrystalShards</defName>
+    <label>red crystal shards</label>
+    <statBases>
+      <Beauty>-3</Beauty>
+      <Cleanliness>-5</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/RF_RedCrystalShards</texPath>
+      <!--<color>(10,75,225,0)</color>-->
+    </graphicData>
+    <filth>
+      <disappearsInDays>45~50</disappearsInDays>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+      <cleaningSound>Interact_CleanFilth_Dirt</cleaningSound>
+    </filth>
+  </ThingDef>
+
+</Defs>

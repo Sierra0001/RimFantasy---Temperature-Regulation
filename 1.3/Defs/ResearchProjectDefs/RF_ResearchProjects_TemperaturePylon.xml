@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>RF_MagicalTemperatureRegulation</defName>
+    <label>magical temperature regulation</label>
+    <description>Infuse rough gemstones with magic to create temperature altering pylons.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>RF_TableGemCutting</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>5.50</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -18,7 +18,7 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0003/RimFantasy---Temperature-Pylons/releases/tag/v0.6b)
+- [Current Version](https://github.com/Sierra0003/RimFantasy---Temperature-Pylons/releases/tag/v0.7-rc.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890)
 - [GitHub](https://github.com/Sierra0003/RimFantasy---Temperature-Pylons)
 
@@ -26,6 +26,7 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 SirLalaPyon for his amazing, high-quality vanilla styled art.
 
-### Recent Changes
+### Latest Changes
 
-- No Changes
+- [RimWorld 1.3] RimWorld 1.3 Ready. (v0.7-rc.1)
+- [Release] Initial release. (v0.7-rc.1)

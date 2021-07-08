@@ -1,12 +1,13 @@
-# RimFantasy - Temperature Pylons
+# RimFantasy - Temperature Reguation
 
-This mod adds 2 new magical gem pylons that radiate temperature changing aura.
+This mod adds 4 new magical gem furnitures that radiate temperature changing energies.
 
-Moderately powerful but costly, they are capable of supporting anywhere from a small storage room on their own, to a large facility when multiple are installed. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a rather spectacular explosion.
+Moderately powerful but costly, they are capable of supporting anywhere from a small storage room to a large facility when multiple are installed. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a rather spectacular explosion.
 
 ### Features
 
-- 2 Pylons (Cold/Hot)
+- 2 Pylons (Frost/Flame)
+- 2 Crystal Bowls (Cold/Hot)
 
 ### Balance
 
@@ -15,6 +16,8 @@ Balance feedbacks are welcomed, please provide context when doing so.
 ### Compatibility
 
 - Save Game Compatible
+- Built-in support for [Proxy Heat](https://steamcommunity.com/sharedfiles/filedetails/?id=2365526329)
+- Probably won't play nice with other gem mod without a patch.
 
 ### Links
 

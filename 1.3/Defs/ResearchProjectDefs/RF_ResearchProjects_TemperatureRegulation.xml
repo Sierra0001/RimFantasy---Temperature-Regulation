@@ -8,7 +8,7 @@
     <baseCost>400</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>
-      <li>RF_TableGemCutting</li>
+      <li>RF_MedievalGemCutting</li>
     </prerequisites>
     <researchViewX>2.00</researchViewX>
     <researchViewY>5.50</researchViewY>

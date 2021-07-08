@@ -30,6 +30,7 @@
 						</li>
 					</value>
 				</li>
+
 				<!-- Flame Pylon -->
 				<li Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[defName = "RF_FlamePylon"]/comps</xpath>
@@ -49,6 +50,52 @@
 							<tempOutcome>8</tempOutcome>
 							<!--<dependsOnFuel>false</dependsOnFuel>-->
 							<maxTemperature>24</maxTemperature>
+						</li>
+					</value>
+				</li>
+
+				<!-- Cold Crystal Bowl -->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "RF_ColdCrystalBowl"]/comps</xpath>
+					<success>Always</success>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "RF_ColdCrystalBowl"]</xpath>
+						<value>
+							<comps />
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RF_ColdCrystalBowl"]/comps</xpath>
+					<value>
+						<li Class="ProxyHeat.CompProperties_TemperatureSource">
+							<radius>3</radius>
+							<tempOutcome>-3</tempOutcome>
+							<!--<dependsOnFuel>false</dependsOnFuel>-->
+							<minTemperature>1</minTemperature>
+						</li>
+					</value>
+				</li>
+
+				<!-- Flame Pylon -->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "RF_HotCrystalBowl"]/comps</xpath>
+					<success>Always</success>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "RF_HotCrystalBowl"]</xpath>
+						<value>
+							<comps />
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RF_HotCrystalBowl"]/comps</xpath>
+					<value>
+						<li Class="ProxyHeat.CompProperties_TemperatureSource">
+							<radius>3</radius>
+							<tempOutcome>3</tempOutcome>
+							<!--<dependsOnFuel>false</dependsOnFuel>-->
+							<maxTemperature>12</maxTemperature>
 						</li>
 					</value>
 				</li>

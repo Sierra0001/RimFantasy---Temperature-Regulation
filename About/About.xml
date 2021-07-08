@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>RimFantasy - Temperature Regulation</name>
 	<author>Sierra</author>
-	<packageId>Sierra.RFTR</packageId>
+	<packageId>Sierra.RF.TemperatureRegulation</packageId>
 	<url></url>
 	<supportedVersions>
 		<li>1.2</li>
@@ -10,8 +10,8 @@
 	</supportedVersions>
 	<modDependencies>
 		<li>
-			<packageId>Sierra.RFGS</packageId>
-	 		<displayName>RimFantasy - Gemstones</displayName>
+			<packageId>Sierra.RF.Core</packageId>
+	 		<displayName>RimFantasy - Core</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890</steamWorkshopUrl>
 		</li>
 	</modDependencies>
@@ -19,20 +19,21 @@
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
-		<li>Sierra.RFGS</li>
+		<li>Sierra.RF.Core</li>
 	</loadAfter>
 	<description>
 [h1]Mod Version: v1.0[/h1]
 
 
-This mod adds 2 new magical gem pylons that radiate temperature changing aura.
+This mod adds 4 new magical gem furnitures that radiate temperature changing energies.
 
-Moderately powerful but costly, they are capable of supporting anywhere from a small storage room on their own, to a large facility when multiple are installed. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a rather spectacular explosion.
+Moderately powerful but costly, they are capable of supporting anywhere from a small storage room to a large facility when multiple are installed. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a rather spectacular explosion.
 
 
 [b]Features:[/b]
 [list]
-[*]2 Pylons (Cold/Hot)
+[*]2 Pylons (Frost/Flame)
+[*]2 Crystal Bowls (Cold/Hot)
 [/list]
 
 
@@ -48,7 +49,7 @@ Moderately powerful but costly, they are capable of supporting anywhere from a s
 [list]
 [*]No Specific Issues Known.
 [*]Built-in support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2365526329]Proxy Heat[/url]
-[*]Probably won't play well with other gem mod without a patch.
+[*]Probably won't play nice with other gem mod without a patch.
 [/list]
 
 

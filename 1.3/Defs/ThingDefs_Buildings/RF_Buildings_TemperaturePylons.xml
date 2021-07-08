@@ -12,9 +12,12 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
+      <drawSize>(1,1)</drawSize>
+      <drawOffset>(0,0,0.10)</drawOffset>
       <allowFlip>true</allowFlip>
       <shadowData>
-        <volume>(0.9,0.3,0.9)</volume> <!--This requires testing. -->
+        <volume>(0.3, 0.5, 0.3)</volume> <!--This requires testing. -->
+        <offset>(0,0,-0.23)</offset>
       </shadowData>
       <damageData>
         <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->
@@ -29,12 +32,13 @@
     <drawerType>RealtimeOnly</drawerType>
     <fillPercent>0.4</fillPercent>
     <statBases>
-      <MaxHitPoints>360</MaxHitPoints>
+      <MaxHitPoints>320</MaxHitPoints>
       <Beauty>10</Beauty>
-      <WorkToBuild>240</WorkToBuild>
+      <WorkToBuild>360</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
@@ -62,15 +66,15 @@
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>5</glowRadius>
-        <glowColor>(53,80,181,0)</glowColor>
+        <glowColor>(130,157,255,0)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">
-        <wickTicks>60</wickTicks>
+        <wickTicks>90</wickTicks>
         <explosiveRadius>5</explosiveRadius>
-        <explosiveDamageType>RF_IcyMagicalEnergyBurn</explosiveDamageType>
+        <explosiveDamageType>RF_SapphireFlame_MediumSquare</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
-        <postExplosionSpawnThingDef>RF_BlueCrystalShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingDef>RF_RubbleSapphireShards</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
       </li>
     </comps>
@@ -92,9 +96,12 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
+      <drawSize>(1,1)</drawSize>
+      <drawOffset>(0,0,0.10)</drawOffset>
       <allowFlip>true</allowFlip>
       <shadowData>
-        <volume>(0.9,0.3,0.9)</volume> <!--This requires testing. -->
+        <volume>(0.3, 0.5, 0.3)</volume> <!--This requires testing. -->
+        <offset>(0,0,-0.23)</offset>
       </shadowData>
       <damageData>
         <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->
@@ -109,12 +116,13 @@
     <drawerType>RealtimeOnly</drawerType>
     <fillPercent>0.4</fillPercent>
     <statBases>
-      <MaxHitPoints>360</MaxHitPoints>
+      <MaxHitPoints>320</MaxHitPoints>
       <Beauty>10</Beauty>
-      <WorkToBuild>240</WorkToBuild>
+      <WorkToBuild>360</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
@@ -145,12 +153,12 @@
         <glowColor>(189,25,60,0)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">
-        <wickTicks>60</wickTicks>
+        <wickTicks>90</wickTicks>
         <explosiveRadius>5</explosiveRadius>
-        <explosiveDamageType>RF_FieryMagicalEnergyBurn</explosiveDamageType>
+        <explosiveDamageType>RF_RubyFlame_MediumSquare</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
-        <postExplosionSpawnThingDef>RF_RedCrystalShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingDef>RF_RubbleRubyShards</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
       </li>
     </comps>

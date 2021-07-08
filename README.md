@@ -1,4 +1,4 @@
-# RimFantasy - Temperature Reguation
+# RimFantasy - Temperature Regulation
 
 This mod adds 4 new magical gem furnitures that radiate temperature changing energies.
 
@@ -32,4 +32,4 @@ SirLalaPyon for his amazing, high-quality vanilla styled art.
 ### Latest Changes
 
 - [RimWorld 1.3] RimWorld 1.3 Ready. (v0.7-rc.1)
-- [Release] Initial release. (v0.7-rc.1)
+- [RimWorld 1.3] Relocation of Defs to Core module. (v0.7-rc.1)

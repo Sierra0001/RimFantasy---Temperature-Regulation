@@ -16,7 +16,7 @@
       <drawOffset>(0,0,0.15)</drawOffset>
       <allowFlip>true</allowFlip>
       <shadowData>
-        <volume>(0.9,0.3,0.9)</volume> <!--This requires testing. -->
+        <volume>(0.1,0.1,0.1)</volume> <!--This requires testing. -->
       </shadowData>
       <damageData>
         <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->
@@ -106,7 +106,7 @@
       <drawOffset>(0,0,0.15)</drawOffset>
       <allowFlip>true</allowFlip>
       <shadowData>
-        <volume>(0.9,0.3,0.9)</volume> <!--This requires testing. -->
+        <volume>(0.1,0.1,0.1)</volume> <!--This requires testing. -->
       </shadowData>
       <damageData>
         <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->

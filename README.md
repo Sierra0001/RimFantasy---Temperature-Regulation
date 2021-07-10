@@ -1,6 +1,6 @@
 # RimFantasy - Temperature Regulation
 
-This mod adds 4 new magical gem furnitures that radiate temperature changing energies.
+This mod adds 4 new magical gemstone furnitures that radiate temperature changing energies.
 
 Moderately powerful but costly, they are capable of supporting anywhere from a small storage room to a large facility when multiple are installed. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a rather spectacular explosion.
 
@@ -8,8 +8,11 @@ Moderately powerful but costly, they are capable of supporting anywhere from a s
 
 - 2 Pylons (Frost/Flame)
 - 2 Crystal Bowls (Cold/Hot)
+- 1 Research
 
 ### Balance
+
+Gems are intentionally sparse and not easy to obtain through natural means, but can be obtained through trades and from salvaging certain objects.
 
 Balance feedbacks are welcomed, please provide context when doing so.
 

@@ -73,10 +73,10 @@
       <li Class="CompProperties_Explosive">
         <wickTicks>30</wickTicks>
         <explosiveRadius>2</explosiveRadius>
-        <explosiveDamageType>RF_AquamarineFlame_SmallSquare</explosiveDamageType>
+        <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
-        <postExplosionSpawnThingDef>RF_RubbleAquamarineShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingDef>RF_RubbleShardsRF_Aquamarine</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
     </comps>
@@ -163,10 +163,10 @@
       <li Class="CompProperties_Explosive">
         <wickTicks>30</wickTicks>
         <explosiveRadius>2</explosiveRadius>
-        <explosiveDamageType>RF_CarnelianFlame_SmallSquare</explosiveDamageType>
+        <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
-        <postExplosionSpawnThingDef>RF_RubbleCarnelianShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
     </comps>

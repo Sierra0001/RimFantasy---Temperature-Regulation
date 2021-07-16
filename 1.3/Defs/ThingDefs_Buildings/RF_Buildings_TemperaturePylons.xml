@@ -71,10 +71,10 @@
       <li Class="CompProperties_Explosive">
         <wickTicks>90</wickTicks>
         <explosiveRadius>5</explosiveRadius>
-        <explosiveDamageType>RF_SapphireFlame_MediumSquare</explosiveDamageType>
+        <explosiveDamageType>RF_Flame_MediumSquareRF_Sapphire</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
-        <postExplosionSpawnThingDef>RF_RubbleSapphireShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingDef>RF_RubbleShardsRF_Sapphire</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
       </li>
     </comps>
@@ -155,10 +155,10 @@
       <li Class="CompProperties_Explosive">
         <wickTicks>90</wickTicks>
         <explosiveRadius>5</explosiveRadius>
-        <explosiveDamageType>RF_RubyFlame_MediumSquare</explosiveDamageType>
+        <explosiveDamageType>RF_Flame_MediumSquareRF_Ruby</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
-        <postExplosionSpawnThingDef>RF_RubbleRubyShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingDef>RF_RubbleShardsRF_Ruby</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
       </li>
     </comps>

@@ -32,13 +32,13 @@
     <fillPercent>0</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <Beauty>3</Beauty>
+      <Beauty>2</Beauty>
       <Mass>1</Mass>
-      <WorkToBuild>120</WorkToBuild>
+      <WorkToBuild>450</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
-    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
@@ -46,7 +46,7 @@
     </stuffCategories>
     <costStuffCount>10</costStuffCount>
     <costList>
-      <RF_RoughAquamarine>6</RF_RoughAquamarine>
+      <RF_RoughAquamarine>10</RF_RoughAquamarine>
     </costList>
     <building>
     	<isEdifice>false</isEdifice>
@@ -72,7 +72,7 @@
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>30</wickTicks>
-        <explosiveRadius>2</explosiveRadius>
+        <explosiveRadius>1</explosiveRadius>
         <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
@@ -122,9 +122,9 @@
     <fillPercent>0</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <Beauty>3</Beauty>
+      <Beauty>2</Beauty>
       <Mass>1</Mass>
-      <WorkToBuild>120</WorkToBuild>
+      <WorkToBuild>450</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
@@ -136,7 +136,7 @@
     </stuffCategories>
     <costStuffCount>10</costStuffCount>
     <costList>
-      <RF_RoughCarnelian>6</RF_RoughCarnelian>
+      <RF_RoughCarnelian>10</RF_RoughCarnelian>
     </costList>
     <building>
     	<isEdifice>false</isEdifice>
@@ -154,15 +154,15 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>10</heatPerSecond> <!--15 degrees weaker than pylons-->
-        <heatPushMaxTemperature>18</heatPushMaxTemperature> <!--10 degrees weaker than pylons-->
+        <heatPushMaxTemperature>8</heatPushMaxTemperature> <!--10 degrees weaker than pylons-->
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>2</glowRadius>
         <glowColor>(255,153,106,0)</glowColor> <!--20% reduction of original-->
       </li>
       <li Class="CompProperties_Explosive">
-        <wickTicks>30</wickTicks>
-        <explosiveRadius>2</explosiveRadius>
+        <wickTicks>60</wickTicks>
+        <explosiveRadius>1</explosiveRadius>
         <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.2</postExplosionSpawnChance>

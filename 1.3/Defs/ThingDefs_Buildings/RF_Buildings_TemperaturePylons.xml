@@ -70,7 +70,7 @@
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>120</wickTicks>
-        <explosiveRadius>5</explosiveRadius>
+        <explosiveRadius>4</explosiveRadius>
         <explosiveDamageType>RF_Flame_MediumSquareRF_Sapphire</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
@@ -161,7 +161,7 @@
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>120</wickTicks>
-        <explosiveRadius>5</explosiveRadius>
+        <explosiveRadius>4</explosiveRadius>
         <explosiveDamageType>RF_Flame_MediumSquareRF_Ruby</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.1</postExplosionSpawnChance>

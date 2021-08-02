@@ -12,7 +12,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
-      <drawSize>(0.8,0.8)</drawSize>
+      <drawSize>(0.7,0.7)</drawSize>
       <drawOffset>(0,0,0.15)</drawOffset>
       <allowFlip>true</allowFlip>
       <shadowData>
@@ -71,7 +71,7 @@
         <glowColor>(26,255,255,0)</glowColor> <!--20% reduction of original-->
       </li>
       <li Class="CompProperties_Explosive">
-        <wickTicks>30</wickTicks>
+        <wickTicks>60</wickTicks>
         <explosiveRadius>1</explosiveRadius>
         <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
@@ -102,7 +102,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
-      <drawSize>(0.8,0.8)</drawSize>
+      <drawSize>(0.7,0.7)</drawSize>
       <drawOffset>(0,0,0.15)</drawOffset>
       <allowFlip>true</allowFlip>
       <shadowData>

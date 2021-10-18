@@ -1,6 +1,6 @@
 # RimFantasy - Temperature Regulation
 
-This mod adds 4 new magical gemstone furnitures that radiate temperature changing energies.
+This mod adds 4 new magical gemstone furnitures that radiate temperature changing energy
 
 Moderately powerful but costly, they are capable of supporting anywhere from a small storage room to a large facility when multiple are installed. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a rather spectacular explosion.
 
@@ -23,9 +23,9 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimFantasy---Temperature-Pylons/releases/tag/v1.0)
-- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890)
-- [GitHub](https://github.com/Sierra0001/RimFantasy---Temperature-Pylons)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---Temperature-Regulation/releases/tag/v1.0)
+- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2630670287)
+- [GitHub](https://github.com/Sierra0001/RimFantasy---Temperature-Regulation)
 
 ### Credits
 

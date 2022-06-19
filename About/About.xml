@@ -21,7 +21,7 @@
 		<li>Sierra.RF.Gemstones</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v1.0[/h1]
+[h1]Mod Version: v1.0.2[/h1]
 
 
 This mod adds 4 new magical gem furnitures that radiate temperature changing energy.
@@ -41,8 +41,9 @@ Moderately powerful but costly, they are capable of supporting anywhere from a s
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656]RimFantasy - Gemstones[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2632845986]RimFantasy - Crystallic Lighting[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Arcane Batons[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Arcane Weapons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2634323159]RimFantasy - Arcane Batons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2656314145]RimFantasy - Arcane Defences[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2651522590]RimFantasy - Arcane Weapons[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talent[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172]RimTraits - General Traits[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colors[/url]
@@ -77,10 +78,26 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 
 [h1]Latest Changes:[/h1]
-[b]v1.0[/b]
+[b]v1.0.1[/b]
 [list]
-[*][RimWorld 1.3] RimWorld 1.3 Ready.
-[*][Release] Initial release.
+[*][Change] heatPushMinTemperature for Frost Pylon decreased from -33 to -24.
+[*][Change] heatPushMaxTemperature for Flame Pylon increased from 33 to 48.
+[*][Buff] heatPerSecond for Cold Crystal Bowl increased from -10 to -11.
+[*][Buff] heatPerSecond for Hot Crystal Bowl increased from 10 to 11.
+[*][Buff] heatPushMaxTemperature for Hot Crystal Bowl increased from 8 to 12.
+[*][Nerf] heatPushMinTemperature for Cold Crystal Bowl decreased from -8 to -6.
+[*][Nerf] heatPerSecond for Frost Pylon decreased from -25 to -24.
+[*][Nerf] heatPerSecond for Flame Pylon decreased from 25 to 24.
+[/list]
+
+[b]v1.0.2[/b]
+[list]
+[*][Change] heatPushMinTemperature for Frost Pylon increased from -24 to -26.
+[*][Change] heatPushMaxTemperature for Flame Pylon decreased from 48 to 38.
+[*][Nerf] heatPerSecond for Frost Pylon decreased from -24 to -20.
+[*][Nerf] heatPerSecond for Flame Pylon decreased from 24 to 20.
+[*][Nerf] auraStrength for Frost Pylon decreased from -24 to -10.
+[*][Nerf] auraStrength for Flame Pylon decreased from 24 to 10.
 [/list]
 	</description>
 </ModMetaData>

@@ -60,9 +60,9 @@
     </placeWorkers>
     <comps>
       <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>-25</heatPerSecond>
-        <heatPushMinTemperature>-33</heatPushMinTemperature>
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>-22</heatPerSecond>
+        <heatPushMinTemperature>-26</heatPushMinTemperature> <!-- Was -24 -->
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>3</glowRadius>
@@ -79,14 +79,13 @@
       </li>
       <li Class="RimFantasy.CompProperties_Aura_Temperature">
         <auraRadius>2</auraRadius>
-        <auraStrength>-24</auraStrength>
+        <auraStrength>-11</auraStrength>
         <locationMode>Both</locationMode>
-        <minTemperature>-28</minTemperature>
+        <minTemperature>-24</minTemperature> <!-- Was -28 -->
         <workThroughWalls>false</workThroughWalls>
       </li>
     </comps>
     <designationCategory>Temperature</designationCategory>
-    <!--<designationHotKey>Misc4</designationHotKey>-->
     <researchPrerequisites>
       <li>RF_MagicalTemperatureRegulation</li> <!--Insert custom research when available-->
     </researchPrerequisites>
@@ -151,9 +150,9 @@
     </placeWorkers>
     <comps>
       <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>25</heatPerSecond>
-        <heatPushMaxTemperature>33</heatPushMaxTemperature>
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>22</heatPerSecond>
+        <heatPushMaxTemperature>38</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>3</glowRadius>
@@ -170,14 +169,13 @@
       </li>
       <li Class="RimFantasy.CompProperties_Aura_Temperature">
         <auraRadius>2</auraRadius>
-        <auraStrength>24</auraStrength>
+        <auraStrength>11</auraStrength>
         <locationMode>Both</locationMode>
-        <maxTemperature>28</maxTemperature>
+        <maxTemperature>36</maxTemperature>
         <workThroughWalls>false</workThroughWalls>
       </li>
     </comps>
     <designationCategory>Temperature</designationCategory>
-    <!--<designationHotKey>Misc4</designationHotKey>-->
     <researchPrerequisites>
       <li>RF_MagicalTemperatureRegulation</li> <!--Insert custom research when available-->
     </researchPrerequisites>

@@ -62,9 +62,9 @@
     </placeWorkers>-->
     <comps>
       <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>-10</heatPerSecond> <!--15 degrees weaker than pylons-->
-        <heatPushMinTemperature>-8</heatPushMinTemperature> <!--20 degrees weaker than pylons-->
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>-11</heatPerSecond> <!--14 degrees weaker than pylons-->
+        <heatPushMinTemperature>-6</heatPushMinTemperature> <!--18 degrees weaker than pylons-->
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>2</glowRadius>
@@ -72,7 +72,7 @@
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>60</wickTicks>
-        <explosiveRadius>1</explosiveRadius>
+        <explosiveRadius>2</explosiveRadius>
         <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
@@ -81,7 +81,6 @@
       </li>
     </comps>
     <designationCategory>Temperature</designationCategory>
-    <!--<designationHotKey>Misc4</designationHotKey>-->
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsFurniture</li>
@@ -152,9 +151,9 @@
     </placeWorkers>-->
     <comps>
       <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>10</heatPerSecond> <!--15 degrees weaker than pylons-->
-        <heatPushMaxTemperature>8</heatPushMaxTemperature> <!--10 degrees weaker than pylons-->
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>11</heatPerSecond> <!--14 degrees weaker than pylons-->
+        <heatPushMaxTemperature>12</heatPushMaxTemperature> <!--36 degrees weaker than pylons-->
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>2</glowRadius>
@@ -162,7 +161,7 @@
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>60</wickTicks>
-        <explosiveRadius>1</explosiveRadius>
+        <explosiveRadius>2</explosiveRadius>
         <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
@@ -171,7 +170,6 @@
       </li>
     </comps>
     <designationCategory>Temperature</designationCategory>
-    <!--<designationHotKey>Misc4</designationHotKey>-->
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsFurniture</li>

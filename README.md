@@ -23,19 +23,15 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimFantasy---Temperature-Regulation/releases/tag/v1.0.2)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---Temperature-Regulation/releases/tag/v1.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2630670287)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---Temperature-Regulation)
 
 ### Credits
 
 SirLalaPyon for his amazing, high-quality vanilla styled art.
+Mascot inspired and based on Geneforge by Spiderweb Software (Go play the series, it's great).
 
 ### Latest Changes
 
-- [Change] heatPushMinTemperature for Frost Pylon increased from -24 to -26.
-- [Change] heatPushMaxTemperature for Flame Pylon decreased from 48 to 38.
-- [Nerf] heatPerSecond for Frost Pylon decreased from -24 to -20.
-- [Nerf] heatPerSecond for Flame Pylon decreased from 24 to 20.
-- [Nerf] auraStrength for Frost Pylon decreased from -24 to -10.
-- [Nerf] auraStrength for Flame Pylon decreased from 24 to 10.
+- [RimWorld 1.4] RimWorld 1.4 Ready.

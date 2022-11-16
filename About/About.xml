@@ -10,6 +10,11 @@
 	</supportedVersions>
 	<modDependencies>
 		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+		<li>
 			<packageId>Sierra.RF.Gemstones</packageId>
 	 		<displayName>RimFantasy - Gemstones</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656</steamWorkshopUrl>

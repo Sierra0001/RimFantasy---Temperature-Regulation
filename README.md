@@ -29,8 +29,8 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Credits
 
-SirLalaPyon for his amazing, high-quality vanilla styled art.
-Mascot inspired and based on Geneforge by Spiderweb Software (Go play the series, it's great).
+- SirLalaPyon for his amazing, high-quality vanilla styled art.
+- Mascot inspired and based on Geneforge by Spiderweb Software (Go play the series, it's great).
 
 ### Latest Changes
 
